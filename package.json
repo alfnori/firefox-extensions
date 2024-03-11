@@ -1,0 +1,11 @@
+{
+  "type": "module",  
+  "dependencies": {
+    "clipboardy": "^4.0.0"
+  },
+  "scripts": {
+    "cphex": "node binary-cp.js $1",
+    "tohex": "xxd $1",
+    "dehex": "cat $1 | xxd -r"
+  }
+}
